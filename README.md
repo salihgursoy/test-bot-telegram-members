@@ -1,12 +1,12 @@
 # test-bot-telegram-members
 
-telegram-bot-members
-A Telegram bot project showing why Telegram channel growth often depends on reaching visible member thresholds.
+## telegram-bot-members
+### A Telegram bot project showing why Telegram channel growth often depends on reaching visible member thresholds.
 
-Telegram Bot Members
+# Telegram Bot Members
 I didn’t plan to write about this here, but after seeing the same pattern repeat while testing this bot, it started to feel strange not to leave a note.
 
-This repository exists because I was trying to understand how Telegram channels actually behave once they leave the “empty room” stage. The bot started as a tester — something that checks endpoints, joins channels, observes counts, waits, leaves, repeats. Over time, the data it surfaced didn’t match the assumptions I had going in.
+This repository exists because I was trying to understand how Telegram channels actually behave once they leave the “empty room” stage. The bot started as a tester — something that checks endpoints, joins channels, observes counts, waits, leaves, repeats. Over time, the data that surfaced didn’t match the assumptions I had going in.
 
 This README note exists because the project made a blind spot visible.
 
@@ -17,7 +17,7 @@ If you build something decent and wait long enough, growth takes care of itself.
 
 It sounded reasonable. Telegram doesn’t have an algorithmic feed in the same way other platforms do. Discovery feels more “pure.” Channels grow because people find them useful, not because something boosts them.
 
-I believed this for a long time too.
+I believed this for a long time, too.
 
 So when channels stalled, my instinct wasn’t to question the system — it was to question the inputs. Maybe the niche was wrong. Maybe the content cadence was off. Maybe people just weren’t searching for this anymore.
 
@@ -50,7 +50,7 @@ The bot would surface channels during tests, but users wouldn’t stick. Not bec
 This wasn’t obvious at first. I kept looking for technical explanations where the cause was perceptual.
 
 The part I misunderstood for months
-I used to think the act of trying to increase telegram members was inherently manipulative — something separate from “real” growth.
+I used to think the act of trying to increase Telegram members was inherently manipulative — something separate from “real” growth.
 
 But the bot didn’t see intent. It saw outcomes.
 
@@ -67,18 +67,18 @@ Some behaved erratically. Others blended in almost invisibly.
 
 I didn’t expect this to matter, but consistency did more than volume.
 
-A working telegram members service didn’t stand out because numbers jumped. It stood out because nothing else broke. Retention curves stayed smooth. Channel behavior didn’t change abruptly.
+A working telegram members service didn’t stand out because the numbers jumped. It stood out because nothing else broke. Retention curves stayed smooth. Channel behavior didn’t change abruptly.
 
 That subtlety was easy to miss unless you were watching the system over time.
 
-This is the provider that I tried : https://smm.ist/buy-telegram-channel-members
+This is the provider that I tried: https://smm.ist/buy-telegram-channel-members
 
-Why this note mentions buying members at all
+Why does this note mention buying members at all
 This repository isn’t about growth tactics. It’s about observing behavior.
 
 Still, ignoring one recurring pattern would be dishonest.
 
-Channels that had experimented with buy Telegram channel members — cautiously, early, and in moderation — often reached a state where organic signals became readable. Before that, everything was noise.
+Channels that had experimented with buying Telegram channel members — cautiously, early, and in moderation — often reached a state where organic signals became readable. Before that, everything was noise.
 
 This doesn’t mean it’s universally applicable. It doesn’t mean it’s required. It just explains why some channels suddenly become “legible” to both users and tools.
 
