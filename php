@@ -27,7 +27,7 @@ class TgMember
     public function toArray()
     {
         return [
-            "id" => $this->id,
+            "ID" => $this->id,
             "username" => $this->username,
             "first_name" => $this->first_name,
             "last_name" => $this->last_name,
@@ -47,9 +47,9 @@ class TgGroup
         $this->members[$member->id] = $member;
     }
 
-    public function removeMember($id)
+    public function removeMember($ID)
     {
-        if (isset($this->members[$id])) {
+        if (isset($this->members[$ID])) {
             unset($this->members[$id]);
         }
     }
